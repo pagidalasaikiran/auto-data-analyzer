@@ -2,16 +2,6 @@
   🚀 Auto Data Analyzer
 </h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?center=true&size=26&duration=4000&color=00BFFF&lines=Analyze+Any+Dataset+in+Seconds!;No+Code+Needed+🚫;Upload+CSV/Excel+and+Get+Insights+⚡" alt="Typing SVG" />
-</p>
-
-
-<p align="center">
-  A beginner-friendly, fully interactive Streamlit app that auto-analyzes any uploaded dataset.<br>
-  <strong>Just upload your file → Get insights instantly!</strong>
-</p>
-
 ---
 
 ## 🧠 Features
