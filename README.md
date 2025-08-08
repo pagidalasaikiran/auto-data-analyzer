@@ -7,10 +7,6 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3Z3Z3QwYzF0bm1tcGZ6aDZnNHFjbHFuOTY3YzJjM3A0ZjFtbmc4MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/f9k1tV7HyORcikAbwp/giphy.gif" width="300" alt="Data Analysis Animation">
-</p>
-
-<p align="center">
   A beginner-friendly, fully interactive Streamlit app that auto-analyzes any uploaded dataset.<br>
   <strong>Just upload your file → Get insights instantly!</strong>
 </p>
@@ -35,9 +31,6 @@
 
 🔗 **Live App:**  
 [👉 Launch Auto Data Analyzer](https://auto-data-analyzer-pagidalasaikiran12.streamlit.app)
-
-🔍 **Watch Preview:**  
-![demo](https://media.giphy.com/media/W0fGd0GC3aVxdpLvhz/giphy.gif)
 
 ---
 
