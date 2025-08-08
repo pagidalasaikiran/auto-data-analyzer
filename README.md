@@ -4,7 +4,6 @@
 
 ---
 🚀 Introduction
-<p align="center"> <img src="https://media.giphy.com/media/f9k1tV7HyORcikAbwp/giphy.gif" width="200" alt="Analyzer animation"> </p>
 Auto Data Analyzer is a powerful yet beginner-friendly 💡 web app that lets you analyze any dataset instantly — without writing a single line of code!
 
 Whether you're:
