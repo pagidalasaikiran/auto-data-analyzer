@@ -72,7 +72,7 @@ Built with ❤️ using Python and Streamlit, Auto Data Analyzer is designed to 
 ## 📦 Installation (Local)
 
 ```bash
-git clone https://github.com/your-username/auto-data-analyzer.git
+git clone https://github.com/pagidalasaikiran/auto-data-analyzer.git
 cd auto-data-analyzer
 pip install -r requirements.txt
 streamlit run app.py
