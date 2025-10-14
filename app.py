@@ -25,7 +25,7 @@ client = genai.Client(api_key=GEMINI_API_KEY)
 # -----------------------------
 st.set_page_config(page_title="Professional Data Analyzer", layout="wide")
 st.markdown(
-    "<h1 style='text-align:center; color:#2C3E50;'>📊 PROFESSIONAL DATA ANALYZER WITH GEMINI INSIGHTS</h1>",
+    "<h1 style='text-align:center; color:#1ABC9C;'>📊 PROFESSIONAL DATA ANALYZER</h1>",
     unsafe_allow_html=True
 )
 
@@ -328,3 +328,4 @@ if uploaded_file is not None:
                     st.download_button("⬇️ Download Report", data=output, file_name="professional_data_report.xlsx", mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
                 except Exception as e:
                     st.error(f"❌ ERROR GENERATING REPORT: {e}")
+
