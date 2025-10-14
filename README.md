@@ -5,6 +5,17 @@
 **Professional Data Analyzer** is a powerful and interactive web application built with **Streamlit** that enables users to perform comprehensive data exploration, cleaning, transformation, visualization, manual analysis, and reporting—all in a single platform. This tool is ideal for data analysts, data scientists, students, and professionals who want quick insights from their datasets.
 
 ---
+## 📁 Folder Structure
+```
+Auto-Data-Analyzer/
+│
+├─ app.py                  # Main Streamlit application
+├─ requirements.txt        # Dependencies
+├─ .env                    # Gemini API key (not in repo)
+├─ README.md               # Project documentation
+└─ assets/                 # Optional folder for screenshots, GIFs, icons
+```
+---
 
 ### 🔹 Key Features
 
