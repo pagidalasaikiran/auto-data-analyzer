@@ -75,13 +75,13 @@ Auto-Data-Analyzer/
 
 ## ⚡ Installation & Setup
 
-1️⃣ 🐙 Clone the repository:
+### 1️⃣ 🐙 Clone the repository:
 ```bash
 git clone https://github.com/pagidalasaikiran/Auto-Data-Analyzer.git
 cd Auto-Data-Analyzer
 ```
 
-2️⃣ 🛠️ Create a virtual environment (optional but recommended):
+### 2️⃣ 🛠️ Create a virtual environment (optional but recommended):
 ```
 python -m venv .venv
 ```
@@ -94,17 +94,17 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-3️⃣ 📦 Install dependencies:
+### 3️⃣ 📦 Install dependencies:
 ```
 pip install streamlit pandas numpy plotly openpyxl python-dotenv google-genai
 ```
 
-4️⃣ 🔑 Add your Gemini API Key in a .env file:
+### 4️⃣ 🔑 Add your Gemini API Key in a .env file:
 ```
 GEMINI_API_KEY=your_api_key_here
 ```
 
-5️⃣ 🚀 Run the Streamlit app:
+### 5️⃣ 🚀 Run the Streamlit app:
 ```
 streamlit run app.py
 ```
