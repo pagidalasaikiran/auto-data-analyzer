@@ -55,7 +55,7 @@ if uploaded_file is not None:
         "🧹 DATA CLEANING",
         "🔄 DATA TRANSFORMATION",
         "📈 DATA VISUALIZATION",
-        "🤖 GEMINI INSIGHTS",
+        "🤖 INSIGHTS",
         "⚡ MANUAL ANALYSIS",
         "💾 DOWNLOAD REPORT"
     ])
@@ -256,21 +256,21 @@ if uploaded_file is not None:
                     st.plotly_chart(fig_cat, use_container_width=True, key=f"viz_cat_bar_{col}")
 
     # -----------------------------
-    # 6. GEMINI INSIGHTS
+    # 6. INSIGHTS
     # -----------------------------
     with tabs[5]:
-        st.header("🤖 GEMINI INSIGHTS")
+        st.header("🤖 INSIGHTS")
         col_options = st.multiselect("Select Columns for Insights:", df.columns.tolist(), key="gemini_cols")
         analysis_df = df[col_options] if col_options else df
         if st.button("Generate Insights", key="gemini_generate"):
-            with st.spinner("🔍 Gemini is analyzing..."):
+            with st.spinner("🔍 Analyzing..."):
                 try:
                     data_snippet = analysis_df.head(20).to_string(index=False)
                     prompt = f"Analyze this dataset and give key insights:\n\n{data_snippet}"
                     response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
                     st.markdown(response.text)
                 except Exception as e:
-                    st.error(f"❌ Gemini error: {e}")
+                    st.error(f"❌ error: {e}")
 
     # -----------------------------
     # 7. MANUAL ANALYSIS
@@ -328,4 +328,5 @@ if uploaded_file is not None:
                     st.download_button("⬇️ Download Report", data=output, file_name="professional_data_report.xlsx", mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
                 except Exception as e:
                     st.error(f"❌ ERROR GENERATING REPORT: {e}")
+
 
