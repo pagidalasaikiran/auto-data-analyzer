@@ -4,6 +4,8 @@
 
 **Professional Data Analyzer** is a powerful and interactive web application built with **Streamlit** that enables users to perform comprehensive data exploration, cleaning, transformation, visualization, manual analysis, and reporting—all in a single platform. This tool is ideal for data analysts, data scientists, students, and professionals who want quick insights from their datasets.
 
+💻 Try the live app here: [Professional Data Analyzer Streamlit App](https://auto-data-analyzer-saikiran.streamlit.app/)
+
 ---
 ## 📁 Folder Structure
 ```
